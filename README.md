@@ -130,7 +130,7 @@ If you'd like to contribute:
 4. Submit a Pull Request!
 
 ## 📧 Contact
-For any queries or suggestions, feel free to **reach out via GitHub Issues** or email at **your-email@example.com**.
+For any queries or suggestions, feel free to **reach out via GitHub Issues** or email at **kushgadhvi@gmail.com**.
 
 ---
 ### 🚀 Made with Power BI for **Data-Driven Decision Making!**
