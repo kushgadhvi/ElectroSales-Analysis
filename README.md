@@ -8,7 +8,7 @@ The report is divided into the following sections:
 
 ### 1️⃣ Sales Overview
 - Provides a **high-level summary** of sales performance.
-- Segmented by **region (e.g., Prairie, Atlantic)**.
+- Segmented by **region (e.g., Prairie, Atlantic,Central Canada, West Coast)**.
 - Key metrics include **total orders, average order value, and total revenue**.
 - Visuals include **revenue distribution by age group, completed vs. canceled orders**, and **top-performing product types**.
 - Includes a **map visualization** for revenue distribution by province.
@@ -52,17 +52,42 @@ The following analytical questions were explored and answered in the report:
 10. Which SKUs are the top-selling and highest-rated, and how does this correlate with customer demographics?
 11. What is the distribution of total sales by region, and how does it compare across different product types?
 12. How does the average quantity purchased vary by product type?
+13. How does purchase behavior vary by day of the week or time of day?
 
-## 📂 Files and Assets
-- **Screenshots of the dashboards**:
-  - Product Page (`proudct_page.png`)
-  - Province Page (`province_page.png`)
-  - Region Page (`region_page.png`)
-  - Report Overview (`report_page.png`)
-  - Tooltip Insights (`tooltip_page.png`)
-  - Key Influencers for Average Ratings (`average_rating_key_influencers.png`)
-  - City Page (`city_page.png`)
-- **Dataset**: `Electronic_sales_Sep2023-Sep2024_updated.csv`
+## 📂 Screenshots
+Below are some key visualizations from the Power BI dashboard, showcasing the detailed and dynamic analysis capabilities of the report.
+
+### Executive Summary & Province Overview
+<table>
+  <tr>
+    <td><img src="Screenshot/proudct_page.png" alt="Product Page" width="600"/></td>
+    <td><img src="Screenshot/province_page.png" alt="Province Page" width="600"/></td>
+  </tr>
+  <tr>
+    <td align="center">Product Page</td>
+    <td align="center">Province Page</td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot/region_page.png" alt="Region Page" width="600"/></td>
+    <td><img src="Screenshot/city_page.png" alt="City Page" width="600"/></td>
+  </tr>
+  <tr>
+    <td align="center">Region Page</td>
+    <td align="center">City Page</td>
+  </tr>
+</table>
+
+### Key Influencers & Tooltip Insights
+<table>
+  <tr>
+    <td><img src="Screenshot/average_rating_key_influencers.png" alt="Key Influencers" width="600"/></td>
+    <td><img src="Screenshot/tooltip_page.png" alt="Tooltip Insights" width="600"/></td>
+  </tr>
+  <tr>
+    <td align="center">Key Influencers</td>
+    <td align="center">Tooltip Insights</td>
+  </tr>
+</table>
 
 ## 🔧 Installation and Setup
 ### Prerequisites
@@ -72,7 +97,7 @@ The following analytical questions were explored and answered in the report:
 ### Steps to Run the Dashboard
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo-name.git
+   git clone https://github.com/kushgadhvi/ElectroSales-Analysis.git
    ```
 2. Open **Power BI Desktop**.
 3. Load the dataset `Electronic_sales_Sep2023-Sep2024_updated.csv`.
